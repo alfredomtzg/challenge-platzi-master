@@ -59,4 +59,9 @@ footer a {
 
 /* responsive style  */
 
-@media ()
+@media (max-width: 425px) {
+    footer {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+}
