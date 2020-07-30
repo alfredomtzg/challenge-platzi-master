@@ -54,7 +54,7 @@ main section .main-container{
 .main-container a:hover {
     margin-bottom: solid 1px #04051b;
 }
-
+/* style footer */
 footer {
     background-color: #371238;
     display: grid;

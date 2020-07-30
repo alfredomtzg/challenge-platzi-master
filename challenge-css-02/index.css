@@ -35,3 +35,27 @@ nav ul li a {
     height: 50px;
     padding-left: 2em;
 }
+/* style footer */
+
+footer {
+    background-color: #371238;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    align-items: center;
+    color: aliceblue;
+    font-size: 1em;
+    padding: 1em .5em;
+}
+footer a {
+    color: aliceblue;
+}
+
+/* responsive style  */
+
+@media (max-width: 425px) {
+    footer {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+}
