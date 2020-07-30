@@ -1,4 +1,7 @@
 /* Global Style */
+:root {
+    --color-black: #04051b;
+}
 *{
     margin: 0;
     padding: 0;
@@ -33,5 +36,23 @@ main section .main-container{
 }
 
 .main-container a {
-    color: black;
+    color: var(--color-black);
+}
+
+.main-container a:hover {
+    margin-bottom: solid 1px #04051b;
+}
+
+footer {
+    background-color: chartreuse;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    align-items: center;
+    color: var(--color-black);
+    font-size: 20px;
+    padding: 1em .5em;
+}
+footer a {
+    color: var(--color-black);
 }
