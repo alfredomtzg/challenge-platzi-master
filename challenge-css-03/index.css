@@ -37,25 +37,32 @@ nav ul li a {
     padding-left: 2em;
 }
 /* main Styles */
-
+main {
+    height: 88vh;
+}
 main p {
     text-align: center;
     font-size: 30px;
 }
 main .nav-container {
     margin: 20px auto;
-    width: 20em;
-    border: 1px solid black;
-    box-shadow: 5px 5px 6px 6px var(--color-black);
+    width: 80%;
+    height: 30em;
+    background: aliceblue;
+    border-radius: 3px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    color: aliceblue
 }
 main .nav-container .nav-top {
     background-color: #4c00d5;
     display: flex;
+    height: 24dp;
 
 }
 main .nav-container .nav {
     background-color: #6200ee;
     display: flex;
+    height: 1.5em;
 }
 
 /*  footer Style*/
