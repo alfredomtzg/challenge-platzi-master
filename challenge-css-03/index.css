@@ -38,6 +38,25 @@ nav ul li a {
 }
 /* main Styles */
 
+main p {
+    text-align: center;
+    font-size: 30px;
+}
+main .nav-container {
+    margin: 20px auto;
+    width: 20em;
+    border: 1px solid black;
+    box-shadow: 5px 5px 6px 6px var(--color-black);
+}
+main .nav-container .nav-top {
+    background-color: #4c00d5;
+    display: flex;
+
+}
+main .nav-container .nav {
+    background-color: #6200ee;
+    display: flex;
+}
 
 /*  footer Style*/
 
