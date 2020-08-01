@@ -80,7 +80,7 @@ i {
     align-items: center;
 }
 .info-container {
-    padding: 24px;
+    padding: 24px 24px 5px 24px;
     border-bottom: 1px solid #e5e5e5;
 }
 .info-container p {
@@ -99,11 +99,12 @@ i {
 .picture-container {
     width: 100%;
     display: flex;
-    
+    object-fit: contain;
+    justify-content: space-between;
 }
 .picture-container img {
     width: 48%;
-    justify-content: space-between;
+    margin-top: 10px;
 }
 /*  footer Style*/
 
