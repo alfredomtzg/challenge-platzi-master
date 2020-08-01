@@ -54,7 +54,7 @@ footer a {
 
 /* responsive style  */
 
-@media (max-width: 425px) {
+@media screen and (min-width:320px) and (max-width: 425px) {
     footer {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
