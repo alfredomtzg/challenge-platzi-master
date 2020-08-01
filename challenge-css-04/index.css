@@ -44,44 +44,47 @@ main p {
     text-align: center;
     font-size: 30px;
 }
-main .nav-container {
-    margin: 20px auto;
-    width: 320px;
-    height: 30em;
-    background: aliceblue;
-    border-radius: 3px;
-    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-    color: aliceblue
-}
-main .nav-container .nav-top {
-    background-color: #4c00d5;
-    display: flex;
-    height: 1.5em;
-    padding-right: .5em;
-    justify-content: flex-end;
-    align-items: center;
-}
-main .nav-container .nav-top i {
-    color: #9d4bff;
-    padding-left: 5px;   
-}
 
-main .nav-container .nav {
-    align-items: center;
+.nav-container{
+    margin: 2em auto;
+    width: 310px;
+    background-color: aliceblue;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+i {
+    width: 24px;
+    height: 24px;
+}
+.nav {
+    height: 56px;
+    padding: 16px;
+    text-align: center;
+    display: flex;
+}
+.top {
+    justify-content: flex-end;
+    background-color: #4c00d5;
+    height: 16px;
+    color: #9d4bff;
+}
+.icon {
     background-color: #6200ee;
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-    display: flex;
-    height: 3.5em;
     color: aliceblue;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
 }
-main .nav-container .nav i {
-    margin-left: .5em;
+.icon div {
+    justify-content: flex-start;
+    display: flex;
+    align-items: center;
 }
-main .nav-container .nav div {
-    width: 50%;
+.info-container {
+    height: 128px;
 }
-
+.picture-container {
+    height: 128px;
+}
 /*  footer Style*/
 
 footer {
