@@ -34,9 +34,9 @@ nav ul li a {
     padding-left: 2em;
 }
 /* main Styles */
-main {
+/* main {
     height: 88vh;
-}
+} */
 main p {
     text-align: center;
     font-size: 30px;
@@ -126,7 +126,7 @@ footer a {
     padding-left: 1em;
     
 }
-.items-container  .items-description .item-name .item-name-secundary {
+.item-name-secundary {
     color:#ababab;
 }
 .items-container  .items-description .price {
