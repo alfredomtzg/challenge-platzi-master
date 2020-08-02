@@ -99,7 +99,6 @@ footer a {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
-    color: var(--color-black);
 }
 .items-container h4 {
     color: var(--color-black);
@@ -108,7 +107,33 @@ footer a {
 }
 .items-container  .items-description {
     display: flex;
+    width: 100%;
+    color: var(--color-black);
+    align-items: center;
+    margin: 1em auto;
 }
+.items-container  .items-description img {
+    width: 50px;
+    height: 50px;
+}
+.items-container  .items-description p {
+    font-size: 1em;
+}
+.items-container  .items-description .item-name {
+    display: inline-block;
+    width: 100%;
+    text-align-last: start;
+    padding-left: 1em;
+    
+}
+.items-container  .items-description .item-name .item-name-secundary {
+    color:#ababab;
+}
+.items-container  .items-description .price {
+    justify-self: flex-end;
+}
+
+ 
 /* responsive style  */
 
 
