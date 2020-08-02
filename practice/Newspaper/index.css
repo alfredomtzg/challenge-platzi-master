@@ -33,6 +33,10 @@ p {
     font-size: .5rem;
     border-bottom: 1px solid black;
 }
+.mt {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
 /* header card style */
 
 .header-card {
