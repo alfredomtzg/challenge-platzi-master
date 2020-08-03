@@ -55,6 +55,9 @@ padding: 0 .5rem;
 .main-news {
     grid-column: 1;
 }
+aside {
+    padding: .5rem;
+}
 }
 
     /* iPads (portrait and landscape) ----------- */
