@@ -1,12 +1,93 @@
-    /* Smartphones (portrait and landscape) ----------- */
-    @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-    /* Styles */
-    }
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  /* Styles */
+header {
+    display: grid;
+    grid-template-rows: 2fr;
+}
+.header-card {
+    grid-template-columns: 1fr;
+}
+.header-title {
+         order:-1;
+         grid-template-columns: 1fr 1fr 1fr;
+     }
+.big-title {
+         order: -1;
+         grid-column: 1 / 4;
+     }
+     h1 {
+         font-size: 4rem;
+     }
+     time {
+         font-size: .7rem;;
+     }
+     
+     .header-price {
+         display: none;
+     }
+     .header-date {
+        grid-column: 1/4;
+         text-align: center;
+     }
+     .header-date p {
+         text-align: center;
+     }
+.container {
+    grid-template-columns: 1fr;
+    padding: 0 .5rem;
+}
+.sub-title {
+         padding: 0;
+}
+.description-content {
+  grid-template-columns: 1fr;
+}
+.description-content {
+    display: block;
+}
+.main-news-description {
+    display: block;
+}
+.museum-description {
+    grid-template-columns: 1fr;
+}
+}
 
-    }
     /* iPads (portrait and landscape) ----------- */
-    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    @media only screen and (min-device-width : 768px) and (max-device-width : 1020px) {
     /* Styles */
+     header {
+        display: grid;
+        grid-template-rows: 2fr;
+     }
+     .header-title {
+         order:-1;
+         grid-template-columns: 1fr 1fr 1fr;
+     }
+     .big-title {
+         order: -1;
+         grid-column: 1 / 4;
+     }
+     .header-price {
+         display: none;
+     }
+     .header-date {
+         grid-column: 2;
+         text-align: center;
+     }
+     .header-date p {
+         text-align: center;
+     }
+     .container {
+         padding: 0 .5rem;
+     }
+     .sub-title {
+         padding: 0;
+     }
+     .description-content {
+         grid-template-columns: 1fr 1fr;
+     }
     }
     /* iPads (landscape) ----------- */
     @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
