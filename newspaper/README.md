@@ -1,7 +1,7 @@
 # challenge-css
 ##This is a repo to make the challenge in platzi with teachers from different countrie
  
- ![alt text](https://github.com/alfredomtzg/challenge-css/blob/master/picture/readme.png?raw=true)
+ ![alt text](https://github.com/alfredomtzg/challenge-platzi-master/blob/master/newspaper/assets/newspaper.png?raw=true)
 
  ## Alfredo Martinez 🤓
 #### Front-end - Psychologist
