@@ -19,18 +19,17 @@
     h1 {
         font-size: 4rem;
     }
-    time {
-        font-size: .7rem;;
-    }
     .header-price {
         display: none;
     }
     .header-date {
-        grid-column: 1/4;
+        grid-column: 1;
         text-align: center;
+        font-size: .7rem;
     }
     .header-date p {
         text-align: center;
+        font-size: .7rem;
     }
     .container {
         grid-template-columns: 1fr;
