@@ -56,10 +56,55 @@
     aside {
         padding: .5rem;
     }
+    aside figure {
+        width: 70%;
+        margin: auto;
+    }
 }
 
 @media only screen and (min-device-width : 481px) and (max-device-width : 767px) {
     /* Styles */
+    header {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+    }
+    .header-title {
+        order:-1;
+        grid-template-columns: 1fr;
+    }
+    .big-title {
+        order: -1;
+        grid-column: 1 / 3;
+    }
+    h1 {
+        font-size: 7rem;
+    }
+    .header-price {
+        display: none;
+    }
+    .header-date{
+        text-align-last: center;
+    }
+    main {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 0 .5rem;
+    }
+    .main-news {
+        grid-column: 1 /span 2;
+    }
+    .main-news-description {
+        grid-template-columns: 1fr 1fr;
+    }
+    .museum-news-description {
+        grid-column: 1 / 3;
+    }
+    aside {
+        grid-column: 1 / 3;
+    }
+    aside figure {
+        width: 70%;
+        margin: auto;
+    }
 }
  /* iPads (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 768px) and (max-device-width : 1020px) {
