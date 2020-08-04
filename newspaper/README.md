@@ -1,5 +1,7 @@
 # challenge-css
-##This is a repo to make the challenge in platzi with teachers from different countrie
+##In this repository you will find a responsive desktop first challenge to different devices, the BEM methodology is used and the use of HTML5 tags for good DOM management.
+
+###And this is a part of platzi master with teachers from different countries.
  
  ![alt text](https://github.com/alfredomtzg/challenge-platzi-master/blob/master/newspaper/assets/newspaper.png?raw=true)
 
