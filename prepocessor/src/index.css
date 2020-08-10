@@ -71,3 +71,59 @@ main p {
   padding-top: 1rem;
   padding-bottom: 20%;
 }
+
+.branch {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  background-color: #fbfbfb;
+}
+.branch__description {
+  padding: 1rem;
+  width: 25%;
+}
+.branch__description h2 {
+  padding: 1rem 0;
+}
+.branch__description h3 {
+  padding: 1rem 0;
+}
+.branch__img {
+  max-width: 30%;
+  box-sizing: border-box;
+}
+.branch__img img {
+  width: 100%;
+}
+
+.services {
+  width: 70%;
+  margin: 1rem auto;
+  display: flex;
+  justify-content: center;
+}
+
+.caja {
+  width: 80%;
+  margin: 0.5rem;
+}
+.caja__contenido h3 {
+  margin: 1rem 0;
+  padding: 0.5rem;
+  opacity: 0.5;
+}
+.caja__contenido p {
+  margin: 1rem 0;
+  padding: 0.5rem;
+  opacity: 0.5;
+}
+.caja__contenido a {
+  color: #0fb191;
+  cursor: pointer;
+  margin: 1rem 0;
+  padding: 0.5rem;
+  opacity: 0.5;
+}
+.caja__imagen img {
+  width: 300px;
+}

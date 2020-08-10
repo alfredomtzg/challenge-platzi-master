@@ -1,0 +1,29 @@
+.services {
+    width: 70%;
+    margin: 1rem auto;
+    display: flex;
+    justify-content: center;
+}
+
+.caja {
+    width: 80%;
+    margin: .5rem;
+    &__contenido {
+        & h3 {
+            @include caja;
+
+        }
+        & p {
+            @include caja;
+        }
+        & a {
+            color: $color-variation;
+            cursor: pointer;
+            @include caja;
+            
+        }
+    }
+    &__imagen img {
+        width: 300px;
+    }
+}
