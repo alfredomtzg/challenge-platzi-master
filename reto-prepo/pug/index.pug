@@ -1,10 +1,17 @@
-<!DOCTYPE html>
-html(lang="en")
-    head
-        meta(charset="UTF-8")
-        meta(name="viewport", content="width=device-width, initial-scale=1.0")
-        //- style link
-        link(rel="stylesheet", href="index.css")
-        title Challenge preprocessor
+include configuraciones.pug
+doctype html
+html(lang="es")
+    include head.pug
     body
-        h1 Hola
+        include header.pug
+        main
+        section.services
+            +cajafirst(titulos[0],'lorem ipsum dolor sit lorem')
+            +cajafirst(titulos[1],'lorem ipsum dolor sit lorem')
+            +cajafirst(titulos[2],'lorem ipsum dolor sit lorem')
+        section.branch
+        section.services
+            +caja('imagen.png', titulos[0],'lorem ipsum dolor sit lorem')
+            +caja('imagen.png', titulos[1],'lorem ipsum dolor sit lorem')
+            +caja('imagen.png', titulos[2],'lorem ipsum dolor sit lorem')
+        include footer.pug
