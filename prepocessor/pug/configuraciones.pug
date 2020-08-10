@@ -1,5 +1,5 @@
 //- variables
--var enlaces = ["Acerca", "Noticias", "Contacto"]
+-var enlaces = ["Acerca", "Noticias", "Contacto", "Branch"]
 -var titulos = ["Card1", "Card2", "Card3"]
 
 //- color
@@ -12,9 +12,9 @@ mixin cajafirst(titulo,contenido)
 			p=contenido
 			a Leer mas
 
-mixin caja(imagen,titulo,contenido)
+mixin caja(titulo,contenido)
 	.caja
-		.caja__imagen: img(src="images/"+imagen, alt="Imagen muestra")
+		.caja__imagen: img(src="https://picsum.photos/200/150", alt="Imagen muestra")
 		.caja__contenido
 			h3=titulo
 			p=contenido
