@@ -7,4 +7,6 @@
 # challenge-platzi-master
 In this repository you will find all the challenges that I have done in platzi master
 
+or you can see in this link https://alfredomtzg.github.io/challenge-platzi-master/
+
 
