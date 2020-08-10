@@ -5,11 +5,18 @@ html(lang="es")
     body
         include header.pug
         main
+            h1 We Listen. You Prosper.
+            p Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus expedita fugiat vero accusantium, exercitationem vitae ipsa! Eum iste quae ea doloremque ullam molestiae facere facilis exercitationem placeat porro! Esse, assumenda.
         section.services
             +cajafirst(titulos[0],'lorem ipsum dolor sit lorem')
             +cajafirst(titulos[1],'lorem ipsum dolor sit lorem')
             +cajafirst(titulos[2],'lorem ipsum dolor sit lorem')
         section.branch
+            .branch__description
+            h2 Branch Offices
+            h3 
+            .branch__img
+                img(src="", alt="", srcset="")
         section.services
             +caja('imagen.png', titulos[0],'lorem ipsum dolor sit lorem')
             +caja('imagen.png', titulos[1],'lorem ipsum dolor sit lorem')
