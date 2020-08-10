@@ -12,9 +12,9 @@ mixin cajafirst(titulo,contenido)
 			p=contenido
 			a Leer mas
 
-mixin caja(titulo,contenido)
+mixin caja(imagen,titulo,contenido)
 	.caja
-		.caja__imagen: img(src="https://picsum.photos/200/150", alt="Imagen muestra")
+		.caja__imagen: img(src="../images/"+imagen, alt="Imagen muestra")
 		.caja__contenido
 			h3=titulo
 			p=contenido
