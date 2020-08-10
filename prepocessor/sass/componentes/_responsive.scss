@@ -1,0 +1,67 @@
+// Iphone
+@media only screen and (min-device-width : 320px) and (max-device-width : 488px) {
+    nav ul {
+        display: none;
+    }
+    main {
+        background-position: bottom;
+        & h1 {
+            font-size: 2rem;
+        }
+    }
+    .services {
+        width: 100%;
+        display: block;
+        text-align: left;
+    }
+    .branch {
+        grid-template-columns: 1fr;
+        &__description {
+            grid-column: 1;
+        }
+        &__img {
+            order: -1;
+        }
+    }
+    .caja__imagen {
+        text-align-last: center;
+    }
+    .footer {
+        grid-template-columns: 1fr;
+        &__container {
+            grid-column: 1;
+        }
+        &__description {
+            grid-column: 1;
+            padding: 1rem;
+
+        }
+    }
+}
+
+// tablet
+@media only screen and (min-device-width : 481px) and (max-device-width : 939px) {
+    main {
+        height: 70vh;
+    }
+    .branch {
+        grid-template-columns: 1fr 1fr;
+        grid-gap: .5rem;
+        &__description {
+            grid-column: 1;
+        }
+    }
+    .services {
+        width: 100%;
+        display: block;
+        text-align: justify;
+    }
+    .caja {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .footer__container {
+        background-position: right;
+    }
+    
+}

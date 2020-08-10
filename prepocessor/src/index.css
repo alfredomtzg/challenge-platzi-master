@@ -22,6 +22,9 @@ body {
 .nav__shop .left small {
   margin: 0 0.5rem;
 }
+.nav__shop .right {
+  padding: 0 0.5rem;
+}
 .nav__shop .right i {
   padding: 0.5rem;
 }
@@ -46,7 +49,7 @@ nav ul li:hover {
 nav .button {
   padding: 0.3rem 0.8rem;
   border-radius: 1rem;
-  background-color: #0fb191;
+  background-color: #0d94b5;
   color: #fbfbfb;
 }
 nav .button:hover {
@@ -55,7 +58,7 @@ nav .button:hover {
 
 main {
   width: 100%;
-  height: 50vh;
+  height: 70vh;
   text-align: center;
   background-image: url("../../images/meeting.png");
   background-position: center;
@@ -65,7 +68,7 @@ main {
 main h1 {
   font-size: 3rem;
   padding-top: 0.1rem;
-  margin-top: 4rem;
+  margin-top: 2rem;
 }
 main p {
   padding-top: 1rem;
@@ -73,14 +76,15 @@ main p {
 }
 
 .branch {
-  display: flex;
-  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 2rem 0;
   justify-content: center;
   background-color: #fbfbfb;
 }
 .branch__description {
+  grid-column: 2;
   padding: 1rem;
-  width: 25%;
 }
 .branch__description h2 {
   padding: 1rem 0;
@@ -89,11 +93,38 @@ main p {
   padding: 1rem 0;
 }
 .branch__img {
-  max-width: 30%;
   box-sizing: border-box;
 }
 .branch__img img {
   width: 100%;
+}
+
+.footer {
+  width: 100%;
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: #0d94b5;
+}
+.footer__container {
+  background-image: url("../images/listen.png");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  grid-column: 1/3;
+}
+.footer__container img {
+  width: 100%;
+}
+.footer__description {
+  grid-column: 3/4;
+  color: #fbfbfb;
+  padding: 1rem 0;
+}
+.footer__description p {
+  margin: 1rem 0;
+  padding: 0.5rem;
+  opacity: 0.5;
 }
 
 .services {
@@ -126,4 +157,76 @@ main p {
 }
 .caja__imagen img {
   width: 300px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 488px) {
+  nav ul {
+    display: none;
+  }
+
+  main {
+    background-position: bottom;
+  }
+  main h1 {
+    font-size: 2rem;
+  }
+
+  .services {
+    width: 100%;
+    display: block;
+    text-align: left;
+  }
+
+  .branch {
+    grid-template-columns: 1fr;
+  }
+  .branch__description {
+    grid-column: 1;
+  }
+  .branch__img {
+    order: -1;
+  }
+
+  .caja__imagen {
+    text-align-last: center;
+  }
+
+  .footer {
+    grid-template-columns: 1fr;
+  }
+  .footer__container {
+    grid-column: 1;
+  }
+  .footer__description {
+    grid-column: 1;
+    padding: 1rem;
+  }
+}
+@media only screen and (min-device-width: 481px) and (max-device-width: 939px) {
+  main {
+    height: 70vh;
+  }
+
+  .branch {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0.5rem;
+  }
+  .branch__description {
+    grid-column: 1;
+  }
+
+  .services {
+    width: 100%;
+    display: block;
+    text-align: justify;
+  }
+
+  .caja {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .footer__container {
+    background-position: right;
+  }
 }

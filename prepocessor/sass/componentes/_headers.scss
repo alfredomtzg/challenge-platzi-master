@@ -9,8 +9,11 @@
             margin: 0 .5rem;
         }
     }
-    & .right i {
-        padding:  .5rem;
+    & .right {
+        padding: 0 .5rem;
+        i {
+            padding:  .5rem;
+        }
     }
 }
 
@@ -33,7 +36,7 @@ nav {
     & .button {
         padding: .3rem .8rem;
         border-radius: 1rem;
-        background-color: $color-variation;
+        background-color: $color-footer;
         color: $color-light;
         &:hover{
             cursor: pointer;

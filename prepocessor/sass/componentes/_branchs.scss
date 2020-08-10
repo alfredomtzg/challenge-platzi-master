@@ -1,11 +1,13 @@
 .branch {
-    display: flex;
-    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 2rem 0;
     justify-content: center;
     background-color: $color-light;
     &__description {
+        grid-column: 2;
         padding: 1rem;
-        width: 25%;
+        
         & h2 {
             padding: 1rem 0;
         }
@@ -14,7 +16,6 @@
         }
     }
     &__img {
-        max-width: 30%;
         box-sizing: border-box;
         & img {
             width: 100%;
