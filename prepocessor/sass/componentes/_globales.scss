@@ -1,4 +1,19 @@
+// Global color
+$color-primary: #333;
+$color-light: #fbfbfb;
+$color-secondary: #8841da;
+$color-variation: #0fb191;
+
+// mixins
+@mixin caja {
+    
+}
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff ;
 }

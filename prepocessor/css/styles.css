@@ -1,7 +1,23 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fbfbfb;
 }
 
 /* Media Queries Mixin
 **********************/
+.nav__shop {
+  width: 100%;
+}
+
+main {
+  width: 100%;
+  background-image: url("../../images/listen.png");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
