@@ -11,7 +11,7 @@ or you can see in this link https://alfredomtzg.github.io/challenge-platzi-maste
 
 <hr>
 
-# Elaborar estos ejercicios en el lenguaje de su preferencia.
+### Elaborar estos ejercicios en el lenguaje de su preferencia.
 Elabora un algoritmo que solicite 2 numeros y muestre el promedio de ambos
 
 Elabora un algoritmo que solicite un número entero y muestre el nombre del mes correspondiente. Ejemplo: Enero = 1.
@@ -24,7 +24,7 @@ Elaborar un algoritmo que necesita obtener el promedio de un estudiante a partir
 
 Elaborar un algoritmo que solicite la edad de dos personas y muestre en pantalla la edad del mayor.
 
-# Elaborar estos ejercicios de diagramas de flujo.
+### Elaborar estos ejercicios de diagramas de flujo.
 Elabora un diagrama de flujo con los pasos para iniciar sesión en una cuenta de Facebook
 
 Elabora un diagrama de flujo con los pasos para preparar cafe
