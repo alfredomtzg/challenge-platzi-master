@@ -1,0 +1,27 @@
+/* Global style */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono', monospace;
+}
+
+/* menu style */
+
+.menu {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    justify-content: flex-start;
+    padding: .5rem;
+}
+.menu .menu-return {
+    display: flex;
+    padding: .5rem;
+}
+i {
+    height: 50px;
+    width: 50px;
+    color: slategrey;
+}
+
+/* main style */
