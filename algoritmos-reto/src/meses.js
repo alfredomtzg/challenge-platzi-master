@@ -43,7 +43,3 @@ const DevolverMes = (mes) => {
     }
 }
 
-DevolverMes(4);
-DevolverMes(8);
-DevolverMes(11);
-DevolverMes(0);
