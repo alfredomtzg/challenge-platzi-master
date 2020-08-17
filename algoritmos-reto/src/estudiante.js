@@ -1,7 +1,7 @@
-let a;
-let b;
-let c;
-const Calificaciones = (a,b,c) => {
-    let promedio = (a + b + c) / 3;
+let d;
+let e;
+let f;
+const Calificaciones = (d,e,f) => {
+    let promedio = (d + e + f) / 3;
     console.log(promedio);
 };
