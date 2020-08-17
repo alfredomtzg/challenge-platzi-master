@@ -1,6 +1,6 @@
 class Ejecutable extends Cuenta {
     constructor(titular, cantidad) {
-        super (titular)
+        super (titular,cantidad)
         this.cantidad = cantidad;
         
         return {
