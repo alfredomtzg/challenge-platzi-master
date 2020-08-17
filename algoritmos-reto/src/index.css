@@ -4,6 +4,14 @@
     padding: 0;
     font-family: 'Roboto Mono', monospace;
 }
+h1 {
+    padding: 1rem 0;
+}
+i {
+    height: 50px;
+    width: 50px;
+    color: slategrey;
+}
 
 /* menu style */
 
@@ -18,10 +26,10 @@
     display: flex;
     padding: .5rem;
 }
-i {
-    height: 50px;
-    width: 50px;
-    color: slategrey;
-}
+
 
 /* main style */
+.titulo {
+    width: 90%;
+    margin: 0 auto;
+}
