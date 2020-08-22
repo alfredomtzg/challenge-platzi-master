@@ -33,3 +33,6 @@ i {
     width: 90%;
     margin: 0 auto;
 }
+.titulo p {
+    padding-top: .5rem;
+}
