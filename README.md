@@ -1,6 +1,6 @@
 
 ## Hi there 👋
-# I'm Alfredo Martinez, nice to meet you 🤓
+# I'm Alfredo Martinez, nice to meet you 🤓!
 
 ### Front-End Developer 💻| Ux Research for the love of research 🕵🏾‍♂️ | Platzi Master Cohort 5 💪💚
 

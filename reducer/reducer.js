@@ -39,5 +39,5 @@ console.log(user2.roles.length);
 user1.roles.length === 2 ? console.log('yes'): console.log('no');
 user2.roles.length === 2 ? console.log('yes'): console.log('no');
 
-const esAdmind = user1.reduce(x => x.roles=="admin")
+const esAdmind = user1.filter( x => x)
 console.log(esAdmind);
